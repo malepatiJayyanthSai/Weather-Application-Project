@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row main-div">
+            <div class="d-none d-lg-flex col-lg-8 d-flex flex-column justify-content-lg-between text-white">
+                <p class="fw-bold mt-4 ms-4">Jayyanth</p>
+                <div class="d-flex gap-4 align-items-center mb-4 ms-4">
+                    <p class="display-1 degree fw-bold mb-0">08°</p>
+                    <div class="d-flex flex-column">
+                        <h1 class="mb-0 city-display">City</h1>
+                        <p class="mb-0 date">time and date</p>
+                    </div>
+                    <p class="mb-0 description">description</p>
+                </div>
+
+            </div>
+            <div class=" col-lg-4 px-lg-0 px-5  pt-5 right-div">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="px-3 pb-0">
+                        <input type="text" class="city-name bg-transparent border border-0 fs-5 mb-0 pb-0 " placeholder="Select Location">
+                        <hr class= "text-white my-0 pt-0">
+                    </div>
+                    <i class="text-white search-icon fa fa-search ps-0 fs-5 me-4 mt-0" aria-hidden="true"></i>
+                </div>
+                <div class="px-3 weather-details mt-5">
+                    <p class="text-white mb-0">Weather Details</p>
+                    <hr class="my-0 text-white border border-1">
+                </div>
+                <div class="mx-3 d-flex justify-content-between mt-5">
+                    <p class="text-white">City</p>
+                    <p class="text-white value-1">city</p>
+                </div>
+                <div class="mx-3 d-flex justify-content-between mt-3">
+                    <p class="text-white">Country</p>
+                    <p class="text-white value-2"></p>
+                </div>
+                <div class="mx-3 d-flex justify-content-between mt-3">
+                    <p class="text-white">Temperature</p>
+                    <p class="text-white value-3"></p>
+                </div>
+                <div class="mx-3 d-flex justify-content-between mt-3">
+                    <p class="text-white">Humidity</p>
+                    <p class="text-white value-4">%</p>
+                </div>
+                <div class="mx-3 d-flex justify-content-between mt-3">
+                    <p class="text-white">Pressure</p>
+                    <p class="text-white value-5"></p>
+                </div>
+                <div class="mx-3 d-flex justify-content-between mt-3">
+                    <p class="text-white">Description</p>
+                    <p class="text-white value-6">nothing</p>
+                </div>
+
+                <div class="mx-3 d-flex gap-1 d-lg-none d-flex  mt-3">
+                    <p class="degree  text-white mb-0">Madeby</p>
+                    <p class="mb-0 text-white date"> Jayyanth</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.main-div{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    
+    background-image: url('../images/mountain.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.right-div{
+    font-family: 'Poppins', sans-serif;
+}
+.city-name{
+    outline: 0;
+}
+@media screen and (max-width: 950px) {
+    .main-div{
+        background-size: cover;
+    }
+  }
+  @media screen and (max-width: 1400px) {
+    .main-div{
+        background-repeat: repeat;
+    }
+  }
